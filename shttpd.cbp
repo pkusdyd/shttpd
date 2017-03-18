@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="shttpd" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/shttpd" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/shttpd" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Makefile" />
+		<Unit filename="index.html" />
+		<Unit filename="shttpd" />
+		<Unit filename="shttpd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shttpd.cbp" />
+		<Unit filename="shttpd.h" />
+		<Unit filename="shttpd.layout" />
+		<Unit filename="shttpd.o" />
+		<Unit filename="shttpd_cgi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shttpd_error.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shttpd_error.o" />
+		<Unit filename="shttpd_method.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shttpd_method.o" />
+		<Unit filename="shttpd_mine.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shttpd_mine.o" />
+		<Unit filename="shttpd_parameters.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shttpd_parameters.o" />
+		<Unit filename="shttpd_request.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shttpd_request.o" />
+		<Unit filename="shttpd_uri.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shttpd_uri.o" />
+		<Unit filename="shttpd_worker.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shttpd_worker.o" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
